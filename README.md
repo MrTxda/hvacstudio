@@ -1,6 +1,6 @@
 # HVAC Studio — Bộ công cụ tính toán HVAC trực tuyến
 
-Dự án sao chép đầy đủ từ [HVAC Studio](https://hvacstudio.vn/) — Không gian tính toán kỹ thuật cho kỹ sư HVAC, chạy 100% Client-side (HTML5, CSS3, JavaScript thuần), không cần backend.
+Không gian tính toán kỹ thuật cho kỹ sư HVAC, chạy 100% Client-side (HTML5, CSS3, JavaScript thuần), không cần backend.
 
 ---
 
@@ -78,6 +78,5 @@ Mở thư mục trong VS Code, nhấp chuột phải vào `index.html` và chọ
 
 ---
 
-## 📄 Bản quyền & Ghi công
-- Nội dung gốc thuộc về [HVAC Studio](https://hvacstudio.vn/).
-- Dự án này phục vụ mục đích nghiên cứu, học tập và lưu trữ kỹ thuật HVAC.
+## 📄 Giới thiệu & Mục đích
+- Bộ công cụ phục vụ mục đích nghiên cứu, học tập và lưu trữ kỹ thuật HVAC.
