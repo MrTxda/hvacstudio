@@ -1,0 +1,255 @@
+/* Dark palette mirrors shared component colors without altering layout. */
+@media screen {
+html[data-theme="dark"]{color-scheme:dark;color:#d5e1e8;background:#101820}
+html[data-theme="dark"] .sidebar{color:#c4ccd1}
+html[data-theme="dark"] .brand span{color:#ced8d9}
+html[data-theme="dark"] .side-label{color:#bdc6cb}
+html[data-theme="dark"] .nav.active{color:#b4dfd7}
+html[data-theme="dark"] .side-bottom small{color:#bcc4ca}
+html[data-theme="dark"] .engineer-icon{color:#cdd8db}
+html[data-theme="dark"] header{border-bottom:1px solid #353f48;color:#b7bdc1}
+html[data-theme="dark"] header b{color:#d2d5d8}
+html[data-theme="dark"] header strong{color:#a4abaf}
+html[data-theme="dark"] .version i{color:#c4cbce}
+html[data-theme="dark"] .eyebrow{color:#8fc1b9}
+html[data-theme="dark"] .title-tag{background:#1e262e;color:#b8bec2}
+html[data-theme="dark"] .heading p{color:#b7bdc2}
+html[data-theme="dark"] .panel{background:#1f272f;border:1px solid #343f48}
+html[data-theme="dark"] .text-button{color:#bbc0c4}
+html[data-theme="dark"] .segmented{background:#1e262f}
+html[data-theme="dark"] .segmented button{color:#b8bec2}
+html[data-theme="dark"] .segmented .selected{background:#1f272f;color:#9aa3a7}
+html[data-theme="dark"] label{color:#a7aeb2}
+html[data-theme="dark"] label span{color:#c7cbcf}
+html[data-theme="dark"] .input-unit{border:1px solid #343f47;background:#1f272f}
+html[data-theme="dark"] input{color:#9aa3a7}
+html[data-theme="dark"] .input-unit span,html[data-theme="dark"] .input-unit select{color:#bbc1c5}
+html[data-theme="dark"] .input-unit select{background:#1f272f}
+html[data-theme="dark"] .shape-switch button{border:1px solid #343f47;background:#1f272f;color:#b7bdc2}
+html[data-theme="dark"] .shape-switch .selected{background:#1e272f;color:#90c1b9}
+html[data-theme="dark"] .full-select{border:1px solid #343f47;background:#1f272f;color:#a6aeb2}
+html[data-theme="dark"] .input-note{border-top:1px solid #364048;color:#c1c6c9}
+html[data-theme="dark"] #error{background:#1f262e;color:#ceab94}
+html[data-theme="dark"] .result-hero{background:#1e262e;border:1px solid #323f46;color:#95a9a7}
+html[data-theme="dark"] .status{background:#1c262d;color:#8fbab0}
+html[data-theme="dark"] .status.warning{background:#1f262c;color:#c6ad92}
+html[data-theme="dark"] .big-size small{color:#b4c5c1}
+html[data-theme="dark"] .hero-middle p{color:#b4c2bf}
+html[data-theme="dark"] #duct{color:#afc8c3}
+html[data-theme="dark"] .hero-foot{border-top:1px solid #323f46;color:#b9c4c2}
+html[data-theme="dark"] .hero-foot strong{color:#9cb2ad}
+html[data-theme="dark"] .metric{background:#1f272f;border:1px solid #343f48}
+html[data-theme="dark"] .metric>span{color:#b8bfc3}
+html[data-theme="dark"] .metric strong{color:#9ba3a8}
+html[data-theme="dark"] .metric small{color:#c0c6ca}
+html[data-theme="dark"] .meter{background:#1e262e}
+html[data-theme="dark"] .metric p{color:#c1c7cb}
+html[data-theme="dark"] .loss-icon{color:#c7ced1}
+html[data-theme="dark"] .chart-legend{color:#bcc2c6}
+html[data-theme="dark"] .chart-foot{border-top:1px solid #364048;color:#c1c7ca}
+html[data-theme="dark"] .panel-title p{color:#c0c6c9}
+html[data-theme="dark"] .step-tag{color:#bfc6ca;border:1px solid #353f48}
+html[data-theme="dark"] th{background:#1f272f;color:#bbc1c5;border-top:1px solid #364048;border-bottom:1px solid #364048}
+html[data-theme="dark"] td{border-bottom:1px solid #364048;color:#b1b9bd}
+html[data-theme="dark"] td:first-child{color:#9fa8ac}
+html[data-theme="dark"] .candidate:hover{background:#1e272f}
+html[data-theme="dark"] .candidate.chosen{background:#1e272f}
+html[data-theme="dark"] .badge{background:#1d262e;color:#94c1b7}
+html[data-theme="dark"] .neutral{background:#1e262e;color:#bdc3c7}
+html[data-theme="dark"] .method{border:1px solid #353f48;background:#1f272f;color:#bcc2c6}
+html[data-theme="dark"] .method a{color:#90c2ba}
+html[data-theme="dark"] footer{color:#c5cace}
+html[data-theme="dark"] footer b{color:#b6bdc2}
+html[data-theme="dark"] .count-tag{color:#90c0b8;background:#1e272e}
+html[data-theme="dark"] .table-wrap{scrollbar-color:#1b242c #1e272f}
+html[data-theme="dark"] .sort-button:hover{color:#8fc2b9}
+html[data-theme="dark"] .sort-icon{color:#cad0d3}
+html[data-theme="dark"] th[aria-sort="ascending"] .sort-button,html[data-theme="dark"] th[aria-sort="descending"] .sort-button,html[data-theme="dark"] th[aria-sort="ascending"] .sort-icon,html[data-theme="dark"] th[aria-sort="descending"] .sort-icon{color:#8fc1b9}
+html[data-theme="dark"] .preset-note{color:#bbc1c5}
+html[data-theme="dark"] .languages a{color:#b4bcc0}
+html[data-theme="dark"] .languages .current{border-color:#303f46;background:#1e272e;color:#8fbcb4}
+html[data-theme="dark"] .languages a:hover{background:#1e262e}
+html[data-theme="dark"] .nav:not(.active){color:#cbd3d6}
+html[data-theme="dark"] .about-lead{color:#b4bcc1}
+html[data-theme="dark"] .about-content p{color:#b2babf}
+html[data-theme="dark"] .about-section a,html[data-theme="dark"] footer a{color:#8fc1b8}
+html[data-theme="dark"] .useful-links{border-top:1px solid #343f48;border-bottom:1px solid #343f48}
+html[data-theme="dark"] .useful-links h2{color:#b7bfc2}
+html[data-theme="dark"] .useful-links a{background:#1f272f;border:1px solid #343f48;color:#9dacb0}
+html[data-theme="dark"] .useful-links a:hover{background:#1e272e}
+html[data-theme="dark"] .useful-links a span{color:#bdc5c8}
+html[data-theme="dark"] .water-symbol{color:#b7ccc8}
+html[data-theme="dark"] .water-explanation p{color:#b7bfc3}
+html[data-theme="dark"] #w-error{background:#1f262e;color:#caaa96}
+html[data-theme="dark"] .psy-properties{border-top:1px solid #354048}
+html[data-theme="dark"] .psy-properties span{color:#b7bfc3}
+html[data-theme="dark"] .psy-properties strong{color:#99aaad}
+html[data-theme="dark"] .psy-legend{color:#bbc2c6}
+html[data-theme="dark"] .point-b{background:#1e2125}
+html[data-theme="dark"] .psy-loads>div{background:#1e272f}
+html[data-theme="dark"] .psy-loads span{color:#b7bfc3}
+html[data-theme="dark"] .psy-loads strong{color:#9aabaf}
+html[data-theme="dark"] .psy-loads p,html[data-theme="dark"] .psy-mix-note{color:#bbc1c5}
+html[data-theme="dark"] #p-error{background:#1f262e;color:#cbaa97}
+html[data-theme="dark"] .heat-input-group{border-top:1px solid #354048}
+html[data-theme="dark"] .heat-input-group summary{color:#94c0b8}
+html[data-theme="dark"] .heat-choice strong{color:#93c1b8}
+html[data-theme="dark"] .heat-bars>div>div:first-child{color:#b8c1c5}
+html[data-theme="dark"] .heat-bars strong{color:#a3b3b7}
+html[data-theme="dark"] .heat-bar{background:#1e262e}
+html[data-theme="dark"] .heat-total td{background:#1e272e}
+html[data-theme="dark"] .heat-alert{background:#1f262e;color:#cbaf9b!important}
+html[data-theme="dark"] #c-error{background:#1f262e;color:#ceae9a}
+html[data-theme="dark"] .field-help{color:#bdc5c8}
+html[data-theme="dark"] .heat-export>span{color:#bbc2c7}
+html[data-theme="dark"] body{background:#1f272f!important;color:#959ea1!important}
+html[data-theme="dark"] .home-hero .eyebrow{color:#b3e0d7}
+html[data-theme="dark"] .home-hero>p{color:#d8dee1}
+html[data-theme="dark"] .home-pills span{border:1px solid #38424a26;color:#d3dbde}
+html[data-theme="dark"] .home-tools>p{color:#b2babe}
+html[data-theme="dark"] .tool-card{background:#1f272f;border:1px solid #343f47}
+html[data-theme="dark"] .tool-number{color:#90c4bc}
+html[data-theme="dark"] .tool-card p{color:#b2babe}
+html[data-theme="dark"] .tool-card strong{color:#8fbfb8}
+html[data-theme="dark"] .home-about p{color:#b2babe}
+html[data-theme="dark"] .home-about a,html[data-theme="dark"] .about-grid a{color:#8fbfb8}
+html[data-theme="dark"] .calc-field label{color:#abb2b6}
+html[data-theme="dark"] .calc-field .unit-input{border:1px solid #343f47;background:#1f272f}
+html[data-theme="dark"] .calc-field .unit-input span{color:#b2babe}
+html[data-theme="dark"] .calc-field input:disabled,html[data-theme="dark"] .calc-field select:disabled{background:#1e262e;color:#c0c5c8}
+html[data-theme="dark"] .calc-field:has(input:disabled) label{color:#c3c7ca}
+html[data-theme="dark"] .calc-metric{border:1px solid #343f47}
+html[data-theme="dark"] .calc-metric>span{color:#b2babe}
+html[data-theme="dark"] .calc-metric small{color:#b2babe}
+html[data-theme="dark"] .calc-metric.main{background:#1e272e;border-color:#2f3e45}
+html[data-theme="dark"] .calc-metric.main strong{color:#8fbbb4}
+html[data-theme="dark"] .calc-note{background:#1e272f}
+html[data-theme="dark"] .calc-note.warn{background:#1f262d;color:#c1af94}
+html[data-theme="dark"] .calc-output-table th,html[data-theme="dark"] .calc-output-table td{border-bottom:1px solid #353f48}
+html[data-theme="dark"] .calc-output-table th{background:#1e272f;color:#abb2b6}
+html[data-theme="dark"] .calc-edit-table input,html[data-theme="dark"] .calc-edit-table select{border:1px solid #343f47}
+html[data-theme="dark"] .calc-edit-table button{background:#1f262e;color:#cca59f}
+html[data-theme="dark"] .calc-method p{color:#b0b8bc}
+html[data-theme="dark"] .calc-method a{color:#8fbfb8}
+html[data-theme="dark"] .calc-link{border:1px solid #2f3e45;color:#8fbbb4;background:#1e272f}
+html[data-theme="dark"] .transfer-notice{background:#1e272e;border:1px solid #2f3e45;color:#8fbbb4}
+html[data-theme="dark"] .calc-results #tool-error{background:#1f262e;color:#cca59f}
+html[data-theme="dark"] .calc-tool-icon{color:#c8e4dd}
+html[data-theme="dark"] .calc-tool-icon b{color:#d0dede}
+html[data-theme="dark"] .transfer-actions{background:#1f272f;border:1px solid #343f47}
+html[data-theme="dark"] .transfer-actions p{color:#b2babe}
+html[data-theme="dark"] .nav-group-label{color:#bac5c2}
+html[data-theme="dark"] .home-tool-group>h3{color:#acb9b4}
+html[data-theme="dark"] .fitting-figure{background:#1e272e}
+html[data-theme="dark"] .fitting-figure figcaption{color:#acb9b4}
+html[data-theme="dark"] .calc-field>input{border:1px solid #333f46}
+html[data-theme="dark"] .sidebar .nav .nav-icon{background:#1f272f09;color:#c2d5d2}
+html[data-theme="dark"] .sidebar .nav.active .nav-icon{background:#17252c1c;color:#b4dfd7}
+html[data-theme="dark"] .home-process p{color:#b1bbbf}
+html[data-theme="dark"] .home-process b{color:#99aaaa}
+html[data-theme="dark"] .heat-view-switch{background:#1e262e}
+html[data-theme="dark"] .heat-view-switch button{color:#b0bbb9}
+html[data-theme="dark"] .heat-view-switch .selected{background:#1f272f;color:#8fbcb5}
+html[data-theme="dark"] .heat-scene{background:linear-gradient(155deg,#1e272e,#1e262f);border:1px solid #333f46}
+html[data-theme="dark"] .install-app-button{border:1px solid #303e45;background:#1e272e;color:#8fbbb4}
+html[data-theme="dark"] #install-help{border:1px solid #343f46;color:#9aa7a4}
+html[data-theme="dark"] .engineering-visual{background:linear-gradient(145deg,#1e272e,#1e262f);border:1px solid #343f46}
+html[data-theme="dark"] .engineering-visual>summary{color:#9db2ad}
+html[data-theme="dark"] .engineering-visual>summary>span{color:#bac5c2}
+html[data-theme="dark"] .visual-chip{border:1px solid #323e45;background:#1f272f;color:#adbcb7}
+html[data-theme="dark"] .visual-chip strong{color:#95b5ad}
+html[data-theme="dark"] .visual-chip:hover,html[data-theme="dark"] .visual-node:hover{background:#1f272f}
+html[data-theme="dark"] .visual-caption{color:#bac3c0}
+html[data-theme="dark"] .visual-node{border:1px solid #323e45;background:#1f272f}
+html[data-theme="dark"] .visual-node-number{color:#8cc0b9}
+html[data-theme="dark"] .visual-node strong{color:#a1b0ab}
+html[data-theme="dark"] .visual-node small{color:#bac3c0}
+html[data-theme="dark"] .visual-node b{color:#97bdb4}
+html[data-theme="dark"] .visual-path-arrow{color:#b4cac3}
+html[data-theme="dark"] .visual-loss-bar{background:#1e262e}
+html[data-theme="dark"] .visual-system{color:#a9bab3}
+html[data-theme="dark"] .visual-state.pass{background:#1d262d;color:#9bb8ac}
+html[data-theme="dark"] .visual-state.warn{background:#1f262d;color:#c5b49a}
+html[data-theme="dark"] .visual-tank-state{color:#aabbb5}
+html[data-theme="dark"] .visual-tank{background:#1e262e}
+html[data-theme="dark"] .visual-water{background:#17242d}
+html[data-theme="dark"] .visual-tank span{color:#9aa9a9}
+html[data-theme="dark"] .visual-flow-source{color:#95beb4}
+html[data-theme="dark"] .visual-flow-result{background:#1f272fb5;border:1px solid #333f46;color:#b2c3be}
+html[data-theme="dark"] .visual-flow-result strong,html[data-theme="dark"] .visual-flow-result small{color:#97b5ad}
+html[data-theme="dark"] .engineering-visual{background:#1f272f}
+html[data-theme="dark"] .calc-output-table .insulation-pass td{background:#1e272e;color:#95b5a5}
+html[data-theme="dark"] .calc-output-table .insulation-fail td{background:#1f262e;color:#d0999f}
+html[data-theme="dark"] .project-title span{color:#abb8bd}
+html[data-theme="dark"] .project-actions button,html[data-theme="dark"] .project-actions select{border:1px solid #323e46;background:#1f272f;color:#95a2a7}
+html[data-theme="dark"] #project-dialog input{border:1px solid #323e46}
+html[data-theme="dark"] .project-workflow{border-top:1px solid #343f47}
+html[data-theme="dark"] .project-actions .project-danger{color:#d0999f;border-color:#353a43;background:#1f262e}
+html[data-theme="dark"] .project-actions .project-danger:hover{background:#1f262e}
+html[data-theme="dark"] .project-trash-dialog{border:1px solid #343f47;color:#95a2a7}
+html[data-theme="dark"] .project-trash-item{border-top:1px solid #343f47}
+html[data-theme="dark"] .fan-selection-guide{background:#1e272f;border:1px solid #333f46}
+html[data-theme="dark"] .fan-selection-guide strong{color:#99b2aa}
+html[data-theme="dark"] .fan-selection-guide .fan-duty{background:#1f272f}
+html[data-theme="dark"] .fan-selection-guide a{color:#8fbbb4}
+html[data-theme="dark"] .fan-selection-guide{background:#1f272f}
+html[data-theme="dark"] .contributor-photo{border:1px solid #343f47}
+html[data-theme="dark"] .segment-editor label{color:#abb2b6}
+html[data-theme="dark"] .segment-editor input{border:1px solid #323e46}
+html[data-theme="dark"] .segment-list button{border:1px solid #323e46;background:#1f272f;color:#8fbbb4}
+html[data-theme="dark"] .segment-pass{color:#8fbbb4}
+html[data-theme="dark"] .segment-fail{color:#d0a29f}
+html[data-theme="dark"] .ez-guide-button,html[data-theme="dark"] #ez-guide-dialog [data-ez-apply]{border:1px solid #2f3e45;background:#1e272e;color:#8fbbb4}
+html[data-theme="dark"] .ez-selection-note{border:1px solid #343f47;background:#1e272f}
+html[data-theme="dark"] .ez-selection-note a,html[data-theme="dark"] #ez-guide-dialog a{color:#8fbbb4}
+html[data-theme="dark"] #ez-guide-dialog .ez-guide-table tr{border-bottom:1px solid #343f47}
+html[data-theme="dark"] #ez-guide-dialog .ez-guide-table td:nth-child(3){color:#8fbbb4}
+html[data-theme="dark"] .calculator-disclaimer{border:1px solid #343f47;background:#1e262f;color:#b1b8bd}
+html[data-theme="dark"] .calculator-disclaimer h2{color:#a4adb2}
+html[data-theme="dark"] .heat-presets{border:1px solid #343f47;background:#1e272f}
+html[data-theme="dark"] .heat-preset-grid select{border:1px solid #333e46;background:#1f272f;color:#9aa6a3}
+html[data-theme="dark"] .heat-preset-status p{color:#a5b4b0}
+html[data-theme="dark"] .heat-preset-reference summary{color:#95bcb5}
+html[data-theme="dark"] .heat-preset-reference td,html[data-theme="dark"] .heat-preset-reference th{border-bottom:1px solid #343f47}
+html[data-theme="dark"] .grille-size-pick{color:#93bbb5}
+html[data-theme="dark"] .item-route-label select{border:1px solid #333e46;background:#1f272f;color:#9aa6a3}
+html[data-theme="dark"] #tool-result .grille-candidate-scroll thead th{background:#1e262e}
+html[data-theme="dark"] .insulation-help{color:#a8b2af}
+html[data-theme="dark"] .insulation-help summary{color:#8fbcb5}
+html[data-theme="dark"] .backup-reminder{border:1px solid #353d40;background:#1f272e;color:#b8ae94}
+html[data-theme="dark"] .backup-reminder button{background:#1f272f;border:1px solid #343c3e;color:#b8ae94}
+html[data-theme="dark"] .info-page p{color:#abb2b6}
+html[data-theme="dark"] .info-page a{color:#8fbbb4}
+html[data-theme="dark"] .project-toggle{color:#8fbbb4}
+html[data-theme="dark"] .theme-toggle{border:1px solid #343f47;background:#1f272f;color:#9fa8ac}
+}
+
+
+
+/* Report previews follow the screen theme; diagrams retain their own palette. */
+@media screen {
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog){background:#1c2933;color:#d5e1e8;border-color:#3a4d59}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog)::backdrop{background:#050b12b3}
+ html[data-theme="dark"] #report-dialog .report-dialog-actions,
+ html[data-theme="dark"] :is(#project-report-dialog,#segment-report-dialog)>.project-actions{background:#1c2933;border-color:#3a4d59}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) :is(h1,h2,h3,h4,header,header b,header strong,.report-heading,.project-report-meta){color:#d5e1e8}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) :is(td,td:first-child){color:#c2d2dc;border-color:#3a4d59}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) th{background:#253844;color:#d5e1e8;border-color:#3a4d59}
+ html[data-theme="dark"] #report-dialog .report-section :is(th,td){border-color:#3a4d59}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) a{color:#71dfc4}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) :is(#report-close,[data-close]){color:#ffaca2}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) :is(#report-close,[data-close]):hover{color:#ffd0c9}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) svg{background:#f0f8f5;color:#254550;border-radius:8px}
+ html[data-theme="dark"] :is(#report-dialog,#project-report-dialog,#segment-report-dialog) .psy-report-status{background:#44351f;color:#f7d390}
+}
+@media print{html{color-scheme:light;background:#fff;color:#172b36}}
+
+/* Clearly distinguish active sizing/check tabs in dark mode. */
+@media screen {
+ html[data-theme="dark"] .segmented{background:#14212b;border:1px solid #354b59}
+ html[data-theme="dark"] .segmented button{color:#b9c9d3}
+ html[data-theme="dark"] .segmented button:hover{background:#263c48;color:#f0faf7}
+ html[data-theme="dark"] .segmented button.selected{background:#155448;color:#eafff7;box-shadow:inset 0 0 0 2px #51cdb0;font-weight:700}
+ html[data-theme="dark"] .shape-switch button.selected{background:#155448;color:#eafff7;border-color:#51cdb0;box-shadow:inset 0 0 0 1px #51cdb0;font-weight:700}
+}
+@media screen{html[data-theme="dark"] .project-review-warning{background:#3a2d17;color:#ffe4a3;border-color:#bd9138}html[data-theme="dark"] .project-review-warning button{background:#253844;color:#ffe4a3;border-color:#bd9138}html[data-theme="dark"] .languages .current{background:#155448;color:#eafff7;border-color:#51cdb0}html[data-theme="dark"] :is(input,select,textarea):focus-visible{outline-color:#51cdb0}html[data-theme="dark"] :is(#error,#w-error,#tool-error,#c-error,#p-error){background:#482c24;color:#ffcfbf}html[data-theme="dark"] :is(.segment-fail,.insulation-fail){color:#ffaca2}html[data-theme="dark"] :is(.segment-pass,.insulation-pass){color:#71dfc4}html[data-theme="dark"] #project-dialog{background:#1c2933;color:#d5e1e8}html[data-theme="dark"] #project-dialog label{color:#c2d2dc}}
